@@ -1,0 +1,77 @@
+{
+  "server": {
+    "listenPort": 3000,
+    "targetUrl": "http://127.0.0.1:8080"
+  },
+  "ide_settings": {
+    "opencode": {
+      "scrub_line_numbers": true
+    },
+    "vscode": {
+      "scrub_line_numbers": false
+    },
+    "default": {
+      "scrub_line_numbers": false
+    }
+  },
+  "models": {
+    "qwen2.5-coder-14b-instruct-q4_K_M": {
+      "targetModel": "qwen2.5-coder-14b-instruct-q4_K_M",
+      "toolFormat": "json_array",
+      "finishReasonOverride": "tool_calls",
+      "bypass_proxy": false,
+      "scrub_line_numbers": true,
+      "tool_translator": [
+        {
+          "tool_ide": "edit",
+          "tool_llm": "edit"
+        },
+        {
+          "tool_ide": "write",
+          "tool_llm": "write"
+        }
+      ]
+    },
+    "qwen2.5-coder-32b-instruct-q4_K_M": {
+      "targetModel": "qwen2.5-coder-32b-instruct-q4_K_M",
+      "toolFormat": "json_array",
+      "finishReasonOverride": "tool_calls",
+      "bypass_proxy": false,
+      "tool_translator": [
+        {
+          "tool_ide": "edit",
+          "tool_llm": "edit"
+        },
+        {
+          "tool_ide": "write",
+          "tool_llm": "write"
+        }
+      ]
+    },
+    "qwen3-14b-q4_k_s": {
+      "targetModel": "qwen3-14b-q4_k_s",
+      "bypass_proxy": true
+    },
+    "gemma-2-9b-instruct-Q6_K": {
+      "targetModel": "gemma-2-9b-instruct-Q6_K",
+      "bypass_proxy": true
+    },
+    "gemma-4-E4B-it-Q4_K_M": {
+      "targetModel": "gemma-4-E4B-it-Q4_K_M",
+      "bypass_proxy": true
+    },
+    "granite-4.0-h-small-Q4_K_M": {
+      "targetModel": "granite-4.0-h-small-Q4_K_M",
+      "bypass_proxy": true
+    },
+    "granite-4.0-h-tiny-Q4_K_M": {
+      "targetModel": "granite-4.0-h-tiny-Q4_K_M",
+      "bypass_proxy": true
+    },
+    "default": {
+      "bypass_proxy": false,
+      "toolFormat": "json_array",
+      "finishReasonOverride": "tool_calls"
+    }
+  }
+}
