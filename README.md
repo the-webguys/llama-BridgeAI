@@ -17,21 +17,20 @@ If you are running powerful local LLMs (like Qwen or Llama) via `llama-server` a
 
 
 Lost json in translation:
-*  **[Show Image of JSON Failure]**[^01]
-*  **[Show Image of Extension Failure]**[^02]
+<br />
 
+<details>
+  <summary> Desktop JSON Failure </summary>
+  ![opencode_desktop_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_desktop_json_01.png)
+</details>
 
-[^01]: Example of a Qwen sending json to the OpenCode Desktop IDE and lacking the final steps:
-	
-    ![opencode_desktop_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_desktop_json_01.png)
+<br />
 
-![opencode_desktop_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_desktop_json_01.png)
+<details>
+  <summary> IDE Extension Failure </summary>
+  ![opencode_ide_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_ide_json_01.png)
+</details>
 
-
-[^02]: Example of a Qwen sending json to the OpenCode VS Code Extension and lacking the final steps:
-	![opencode_ide_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_ide_json_01.png)
-
-![opencode_ide_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_ide_json_01.png)
 
 Llama-BridgeAI was engineered to intercept this data stream, providing a unified, reliable communication layer that allows for seamless, persistent operation.
 
