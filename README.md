@@ -21,6 +21,7 @@ Lost json in translation:
 
 <details>
   <summary> Desktop JSON Failure </summary>
+
   ![opencode_desktop_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_desktop_json_01.png)
 </details>
 
@@ -28,6 +29,8 @@ Lost json in translation:
 
 <details>
   <summary> IDE Extension Failure </summary>
+
+  
   ![opencode_ide_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_ide_json_01.png)
 </details>
 
