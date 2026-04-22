@@ -25,9 +25,13 @@ Lost json in translation:
 	
     ![opencode_desktop_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_desktop_json_01.png)
 
+![opencode_desktop_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_desktop_json_01.png)
+
+
 [^02]: Example of a Qwen sending json to the OpenCode VS Code Extension and lacking the final steps:
 	![opencode_ide_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_ide_json_01.png)
 
+![opencode_ide_json_01.png](https://the-webguys.com/assets/public/git/llama-bridge_ai/opencode_ide_json_01.png)
 
 Llama-BridgeAI was engineered to intercept this data stream, providing a unified, reliable communication layer that allows for seamless, persistent operation.
 
