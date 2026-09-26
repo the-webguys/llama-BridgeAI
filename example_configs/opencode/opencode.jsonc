@@ -38,7 +38,7 @@
       "model": "llama/qwen2.5-coder-14b-instruct-q4_K_M",
       "permission": {
         "*": "ask",
-        "edit": "ask",
+        "edit": "ask", // CRITICAL: OpenCode uses 'edit' to control 'write'
         "write": "ask",
         "bash": "deny"
       }
@@ -47,7 +47,7 @@
       "model": "llama/qwen2.5-coder-32b-instruct-q4_K_M",
       "permission": {
         "*": "ask",
-        "edit": "ask",
+        "edit": "ask", // CRITICAL: OpenCode uses 'edit' to control 'write'
         "write": "ask",
         "bash": "deny"
       }
@@ -58,7 +58,7 @@
       "name": "llama-server",
       "npm": "@ai-sdk/openai-compatible",
       "options": {
-        "baseURL": "http://127.0.0.1:3000/v1", // routed to the LSTT
+        "baseURL": "http://127.0.0.1:3000/v1", //"http://127.0.0.1:8080/v1/",
         "apiKey": "sk-no-key-required",
         "toolParser": [
           {

@@ -48,6 +48,14 @@
         }
       ]
     },
+    "Qwen_Qwen3.6-35B-A3B-IQ2_M": {
+      "targetModel": "Qwen_Qwen3.6-35B-A3B-IQ2_M",
+      "bypass_proxy": true
+    },
+    "Qwen_Qwen3.6-35B-A3B-Q3_K_L": {
+      "targetModel": "Qwen_Qwen3.6-35B-A3B-Q3_K_L",
+      "bypass_proxy": true
+    },
     "qwen3-14b-q4_k_s": {
       "targetModel": "qwen3-14b-q4_k_s",
       "bypass_proxy": true
